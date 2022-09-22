@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE Mobile [ 
+<!ELEMENT Mobile (Company, Model, Price, Accessories)>
+<!ELEMENT Company (#PCDATA)>
+<!ELEMENT Model (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Accessories (#PCDATA)>
+<!ATTLIST Model Type CDATA "Camera">
+<!ENTITY HP "Head Phones">
+<!ENTITY CH "Charger">
+<!ENTITY SK "Starters kit">  
+]>
+<Mobile>
+<Company>Nokia</Company>
+<Model Type="Camera">6600</Model>
+<Price>9999</Price>
+<Accessories> &HP;, &SK; and a &SK;</Accessories>
+</Mobile> -->
+
+<!--p-->
+
+<!-- <!DOCTYPE Mail [
+<!ELEMENT Mail (To, From, Date, Time, Cc, Bcc, Subject, Message, Signature)>
+<!ELEMENT To (#PCDATA)>
+<!ELEMENT From (#PCDATA)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT Time (#PCDATA)>
+<!ELEMENT Cc (#PCDATA)>
+<!ELEMENT Bcc (#PCDATA)>
+<!ELEMENT Subject (#PCDATA)>
+<!ELEMENT Message (#PCDATA)>
+<!ELEMENT Signature (#PCDATA)>
+]>
+<Mail>
+<To>anne@xyz.com</To>
+<From>bob@xyz.com</From>
+<Date>27th february 2007</Date>
+<Time>11:30 am</Time>
+<Cc></Cc>
+<Bcc></Bcc>
+<Subject>Meeting at main conference Room at 4:30 pm </Subject>
+<Message>Hi kindly request you to attend to cultural body general meeting in the main conference room at 4:30 pm ,please be present to learn about the new activities being planned for the employs for this year.Yours sinserely ,bob</Message>
+<Signature></Signature>
+</Mail>  -->
+
+<!--p-->
+
+<!DOCTYPE Mobile [ 
+<!ELEMENT Mobile (Company, Model, Price, Accessories)>
+<!ELEMENT Company (#PCDATA)>
+<!ELEMENT Model (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Accessories (#PCDATA)>
+<!ATTLIST Model Type CDATA "Camera">
+<!ENTITY HP SYSTEM "hp.txt">
+<!ENTITY CH SYSTEM "ch.txt">
+<!ENTITY SK SYSTEM "sk.txt">
+]>
+<Mobile>
+<Company>Nokia</Company>
+<Model Type="Camera">6600</Model>
+<Price>9999</Price>
+<Accessories> &HP;, &SK; and a &SK;</Accessories>
+</Mobile>
+ 
+
+

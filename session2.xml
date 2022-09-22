@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parent xmlns:S="#" xmlns:h="#" xmlns:f="#" xmlns:CD="#" xmlns:Book="#" >
+ <CD:Title>Feel</CD:Title>
+ <Book:Title>Returnting to earth</Book:Title>
+ 
+ <S:Student >
+ <S:First>John</S:First>
+ <S:last>Deweys</S:last>
+ <S:Title>Student</S:Title>
+ </S:Student>
+
+ <Catalog xmlns:Book ="#">
+ <Book:Booklist>
+ <Book:Title Book:Type="fiction">Evening in paris</Book:Title>
+ <Book:Price>$123</Book:Price>
+ </Book:Booklist>
+ </Catalog>
+
+ <Mrow>
+ <Mi>x</Mi>
+ <Mo>+</Mo>
+ <Mn>1</Mn>
+ </Mrow>
+
+
+<Catalog xmlns:Book ="#">
+ <Book>
+ <Title Book:Type="fiction">Evening in paris</Title>
+ <Price>$123</Price>
+ </Book>
+ <Book>
+ <Title Type ="Non -function">Return to earth</Title>
+ <Price xmlns="#">$23</Price>
+ <Title Type ="Non function">Journey to the center of the moon </Title>
+ <Price>$123</Price>
+ </Book>
+ </Catalog>
+ 
+
+ <h:table>
+  <h:tr>
+  <h:td>Apples</h:td>
+  <h:td>Bananas</h:td>
+  </h:tr>
+ </h:table>
+
+ <f:table>
+   <f:name>Affrican coffe table</f:name>
+   <f:width>80</f:width>
+   <f:length>120</f:length>
+ </f:table>
+</parent>
